@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.kittmedia.wsf.ownpostlist" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/package.xsd">
+	<packageinformation>
+		<packagename>Own Post List</packagename>
+		<packagename language="de">Liste der eigenen Beiträge</packagename>
+		<version>1.0.0</version>
+		<date>2017-06-19</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[KittMedia]]></author>
+		<authorurl>https://kittmedia.com</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.0.5">com.woltlab.wbb</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="3.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<!-- configuration -->
+		<instruction type="language" />
+		<instruction type="page" />
+		<instruction type="menuItem" />
+		
+		<!-- files -->
+		<instruction type="file" application="wbb" />
+	</instructions>
+</package>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/page.xsd">
+	<import>
+		<page identifier="com.kittmedia.wsf.OwnPostListPage">
+			<pageType>system</pageType>
+			<controller>wbb\page\OwnPostListPage</controller>
+			<handler>wbb\system\page\handler\OwnPostListPageHandler</handler>
+			<name language="de">List mit eigenen Beiträgen</name>
+			<name language="en">List with own posts</name>
+			
+			<content language="en">
+				<title>List with own posts</title>
+			</content>
+			<content language="de">
+				<title>Liste mit eigenen Beiträgen</title>
+			</content>
+		</page>
+	</import>
+</data>

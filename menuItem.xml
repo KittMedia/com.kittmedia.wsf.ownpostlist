@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/menuItem.xsd">
+	<import>
+		<item identifier="com.kittmedia.wsf.OwnPostList">
+			<parent>com.woltlab.wbb.BoardList</parent>
+			<title language="de">Eigene Beiträge</title>
+			<title language="en">Own Posts</title>
+			<page>com.kittmedia.wsf.OwnPostListPage</page>
+		</item>
+	</import>
+</data>
