@@ -7,7 +7,7 @@ use wcf\system\WCF;
  * Represents the own post list page.
  * 
  * @author	Dennis Kraffczyk
- * @copyright	2011-2018 KittMedia
+ * @copyright	2011-2020 KittMedia
  * @license	Free <https://kittmedia.com/licenses/#licenseFree>
  * @package	com.kittmedia.wsf.ownpostlist
  * @category	WoltLabSuite\Forum\Page
