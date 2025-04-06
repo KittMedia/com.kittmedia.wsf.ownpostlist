@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="com.kittmedia.wsf.ownpostlist" xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/2019/package.xsd">
+<package xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/package.xsd" name="com.kittmedia.wsf.ownpostlist">
 	<packageinformation>
+		<!-- com.kittmedia.wsf.ownpostlist -->
 		<packagename>Own Post List</packagename>
 		<packagename language="de">Liste der eigenen Beiträge</packagename>
-		<version>1.2.0</version>
-		<date>2019-01-05</date>
+		<packagedescription>Offers the community members a list of their own post written in suite forum.</packagedescription>
+		<packagedescription language="de">Bietet den Community-Mitgliedern eine Liste der eigenen Beiträge aus dem Suite Forum an.</packagedescription>
+		<version>2.0.0</version>
+		<date>2025-04-06</date>
 	</packageinformation>
-	
 	<authorinformation>
-		<author><![CDATA[KittMedia]]></author>
+		<author>KittMedia</author>
 		<authorurl>https://kittmedia.com</authorurl>
 	</authorinformation>
-	
 	<requiredpackages>
-		<requiredpackage minversion="5.2.0">com.woltlab.wbb</requiredpackage>
-		<requiredpackage minversion="5.2.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.21">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="6.0.21">com.woltlab.wbb</requiredpackage>
 	</requiredpackages>
-	
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="6.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
-	
 	<instructions type="install">
-		<!-- configuration -->
-		<instruction type="page" />
-		<instruction type="menuItem" />
-		
-		<!-- files -->
-		<instruction type="file" application="wbb" />
-	</instructions>
-	
-	<instructions type="update" fromversion="1.1.0 RC 1">
-		<!-- files -->
-		<instruction type="file" application="wbb" />
+		<instruction type="page"/>
+		<instruction type="menuItem"/>
+		<instruction type="file" application="wbb"/>
 	</instructions>
 </package>
