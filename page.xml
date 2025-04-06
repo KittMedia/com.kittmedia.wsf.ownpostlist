@@ -4,7 +4,7 @@
 		<page identifier="com.kittmedia.wsf.OwnPostListPage">
 			<pageType>system</pageType>
 			<controller>wbb\page\OwnPostListPage</controller>
-			<name language="de">List mit eigenen Beiträgen</name>
+			<name language="de">Liste mit eigenen Beiträgen</name>
 			<name language="en">List with own posts</name>
 			<handler>wbb\system\page\handler\OwnPostListPageHandler</handler>
 			<content language="en">
